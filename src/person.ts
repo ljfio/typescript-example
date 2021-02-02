@@ -13,7 +13,7 @@ export class Person {
      * Produce greeting message
      * @returns greeting for the person
      */
-    greet() {
+    greet(): string {
         return `Hello, ${this.name}!`;
     }
 }
