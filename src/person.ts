@@ -15,5 +15,5 @@ export class Person {
      */
     greet() {
         return `Hello, ${this.name}!`;
-    };
+    }
 }
