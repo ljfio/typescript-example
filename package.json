@@ -1,0 +1,11 @@
+{
+  "name": "typescript",
+  "version": "0.0.1",
+  "description": "Typescript Learning",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
