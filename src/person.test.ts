@@ -5,3 +5,7 @@ test('create a valid person', () => {
 
     expect(luke.greet()).toBe("Hello, Luke!");
 });
+
+test('create an invalid person', () => {
+    expect(() => new Person(null)).toThrowError();
+});

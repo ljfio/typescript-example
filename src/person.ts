@@ -6,6 +6,11 @@ export class Person {
      * @param name Name of the person
      */
     constructor(name: string) {
+        // Check if a valid name has been provided
+        if (name == null || name.length == 0) {
+            throw new Error("Param name must not be null or empty");
+        }
+
         this.name = name;
     }
 
